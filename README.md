@@ -2,6 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://smk2018.github.io/Covid19_Tracker2/ is the website of this project.
 
+Needed CLI:
+1. npm install
+2. npm install --save axios react-chartjs-2 react-countup classnames
+3. npm i react-chartjs-2 chart.js
+4. npm install --save @material-ui/core 
+
+
 Tips: How to deploy project website in Github
 
 1. add "homepage": "https://username.github.io/projectname" in package.json.
