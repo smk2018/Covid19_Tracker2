@@ -1,6 +1,7 @@
 {
   "name": "react-covid19",
   "version": "0.1.0",
+  "homepage": "https://smk2018.github.io/Covid19_Tracker2",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
@@ -10,6 +11,8 @@
     "axios": "^0.20.0",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
+    "material-ui": "^0.20.2",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.10.0",
     "react-countup": "^4.3.3",
@@ -18,6 +21,8 @@
     "typescript": "^4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
