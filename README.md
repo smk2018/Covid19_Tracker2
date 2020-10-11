@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://smk2018.github.io/Covid19_Tracker2/ is the website of this project.
 
+![image](https://github.com/smk2018/Covid19_Tracker2/blob/main/Screen%20Shot%202020-10-11%20at%202.49.22%20AM.png)
+
 Needed CLI:
 1. npm install
 2. npm install --save axios react-chartjs-2 react-countup classnames
